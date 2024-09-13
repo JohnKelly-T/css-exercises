@@ -8,6 +8,11 @@
     font-size: 36px;
 }
 
-.third-element {
+.third-element, #fourth-element {
     font-size: 24px;
+}
+
+#fourth-element {
+    background-color: rgba(0, 255, 0, 0.4);
+    font-weight: bold;
 }
