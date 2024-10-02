@@ -8,6 +8,16 @@ body {
   min-height: 100vh;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 .header {
   height: 72px;
   background: darkmagenta;
