@@ -7,13 +7,19 @@ body {
 }
 
 ul {
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  gap: 16px;
+  
 }
 
 a {
+  font-size: 24px;
   text-decoration: none;
+  color: white;
 }
 
 .header {
@@ -36,6 +42,9 @@ a {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
@@ -58,4 +67,5 @@ a {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   width: 300px;
+  padding: 16px;
 }
